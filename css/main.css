@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+}
+
+.left-side {
+    margin-left: 120px;
+    width: 30%;
+    height: 100vh;
+    float: left;
+    background-color: white;
+}
+
+.main-title {
+    color: #3852FF;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+p {
+    font-size: 9.5px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #A0A3AD;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #3852FF;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+span {   
+    display: inline;
+    color: #A0A3AD;
+    margin-left: 40px;
+    font-size: 8px;
+}
+
+.remember {
+    color: #A0A3AD;
+    font-size: 8px;
+    margin-left: 40px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.remember > input {
+    vertical-align: middle;
+}
+
+.forgot {
+    display: inline-grid;
+    color: #8B8B9B;
+    float: right;
+    margin-top: 18px;
+    margin-left: 90px;
+    margin-right: 60px;
+    font-size: 8px;
+}
+
+.button-login > a {
+    color: white;
+}
+
+.right-side {
+    float: left;
+    width: 42%;
+    height: 100vh;
+    background-image: url(../img/main-pic.png);
+    background-repeat:no-repeat;
+    background-size:cover
+}
