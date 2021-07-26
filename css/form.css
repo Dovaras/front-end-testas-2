@@ -1,6 +1,8 @@
 
 .form-row {
     border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
     width: 230px;
     height: 30px;
     margin-left: 40px;
