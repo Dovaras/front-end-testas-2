@@ -3,8 +3,10 @@ button:hover {
 }
 
 .button-login {
+/*
     display: inline-grid;
     float: left;
+*/
     background-color: #3852FF;
     color: white;
     border: 0px solid #3852FF;
@@ -13,13 +15,17 @@ button:hover {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+/*
     margin-left: 40px;
     margin-top: 30px;
+*/
 }
 
 .button-signup {
+/*
     display: inline-grid;
     float: left;
+*/
     background-color: white;
     border: 1px solid #3852FF;
     color: #3852FF;
@@ -28,7 +34,9 @@ button:hover {
     padding: 10px;
     padding-left: 10px;
     padding-right: 20px;
+/*
     margin-left: 10px;
     margin-right: 180px;
     margin-top: 30px;
+*/
 }
