@@ -4,56 +4,42 @@ body {
 }
 
 main {
-    margin-left: 120px;
-    margin-right: 120px;
-    /*width: 100%;*/
+    display: flex;
+    align: center;
 }
 
 .left-side {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    width: 30%;
     height: 100vh;
-    float: left;
     background-color: white;
 }
 
 .main-title {
     color: #3852FF;
     font-size: 14px;
-    margin-left: 40px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 h2 {
     font-size: 16px;
-    margin-left: 40px;
 }
 
 p {
     font-size: 9.5px;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     color: #A0A3AD;
-}
-
-a {
-    display: inline;
-    text-decoration: none;
-    color: #3852FF;
-    margin-left: 15px;
-    font-weight: bold;
-    font-size: 8px;
-}
-
-span {   
-    display: inline;
-    color: #A0A3AD;
-    font-size: 8px;
 }
 
 .remember-and-forgot {
+    padding-top: 10px;
+    padding-bottom: 25px;
     line-height: 15px;
     vertical-align: middle;
-    text-align: right;
 }
 
 .remember {
@@ -71,15 +57,37 @@ span {
     font-size: 8px;
 }
 
-.button-login > a {
-    color: white;
+span {   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #A0A3AD;
+    font-size: 8px;
+}
+
+a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #3852FF;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 8px;
+}
+.links > a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #3852FF;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 8px;
 }
 
 .right-side {
-    float: left;
-    width: 50%;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-start;
+    width: 40%;
     height: 100vh;
     background-image: url(../img/main-pic.png);
     background-repeat:no-repeat;
-    background-size:cover
+    background-size:cover;
 }
