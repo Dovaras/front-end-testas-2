@@ -5,7 +5,6 @@ body {
 
 main {
     display: flex;
-    align: center;
 }
 
 .left-side {
@@ -14,7 +13,7 @@ main {
     justify-content: center;
     align-items: flex-start;
     padding-left: 40px;
-    width: 30%;
+    width: 45%;
     height: 100vh;
     background-color: white;
 }
@@ -36,6 +35,7 @@ p {
 }
 
 .remember-and-forgot {
+    float: right;
     padding-top: 10px;
     padding-bottom: 25px;
     line-height: 15px;
@@ -55,6 +55,7 @@ p {
     margin-top: 3px;
     color: #8B8B9B;
     font-size: 8px;
+    float: right;
 }
 
 span {   
@@ -85,9 +86,10 @@ a {
     flex-direction: row;
     justify-content: right;
     align-items: flex-start;
-    width: 40%;
+    width: 55%;
     height: 100vh;
     background-image: url(../img/main-pic.png);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center bottom;
 }
